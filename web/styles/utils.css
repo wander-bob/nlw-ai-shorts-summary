@@ -1,0 +1,12 @@
+.sr-only {
+  position: absolute;
+  margin: -1;
+  top: -1;
+  height: 1rem;
+  width: 1rem;
+  opacity: 0;
+}
+.placeholder {
+  color: #7c7c8a;
+  user-select: none;
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./public/logo.svg" type="svg/x-icon">
+    <title>Shorts Summary</title>
+  </head>
+  <body>
+    <div id="app">
+      <img src="./public/logo.svg" alt="Shorts Summary">
+      <h1>Shorts Summary</h1>
+      <form action="" id="form">
+        <label for="url" class="sr-only">URL do vídeo</label>
+        <input type="url" placeholder="URL do vídeo" id="url" required>
+        <button title="Resumir">
+          <i class="ph ph-play"></i>
+        </button>
+      </form>
+      <h2>Resumo</h2>
+      <p id="content" class="placeholder">Insira um link de um Shorts do Youtube para resumir.</p>
+    </div>
+    <script type="module" src="./web/main.js"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </body>
+</html>

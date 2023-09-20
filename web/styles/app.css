@@ -1,0 +1,24 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: center;
+}
+#app > h1 {
+  color: #996dff;
+  margin-top: -0.5rem;
+  font-size: 3.4rem;
+}
+#app > img {
+  width: 6.4rem;
+}
+#app>h2{
+  align-self: flex-start;
+  margin-top: 6.4rem;
+}
+#app>p{
+  align-self: flex-start;
+  text-align: justify;
+  width: 51.2rem;
+  margin-top: 1.8rem;
+}
